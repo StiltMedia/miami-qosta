@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+  <title>MiamiQosta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <meta name="msvalidate.01" content="FC011CE0105FCDEF96CA6CF4983F14D2" />
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-61911497-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+
+  <%= render 'layouts/preloader' %>
+  <%= render 'layouts/menu_button' %>
+  <%= render 'layouts/language' %>
+
+
+
+
+    <%= render 'layouts/header' %>
+  <!-- <div class="page-wrapper"> -->
+    <div class="ody-content">
+
+      <%= render 'layouts/navlinks' %>
+      <div id="bkg-overlay"></div>
+
+      <%= yield %>
+
+      <footer class="footer-2 bg-black">
+        <%= render 'layouts/footer' %>
+      </footer>
+
+    </div>
+  <!-- </div> -->
+
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  <script>
+
+  $( "#ody-trigger" ).click(function() {
+    $( "#bkg-overlay" ).toggle();
+  });
+  $( "#ody-trigger" ).click(function() {
+    $( "body" ).toggleClass("stay-still");
+  });
+
+    (function() {
+      [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
+        new SelectFx(el);
+      } );
+    })();
+
+
+    (function($) {
+      $('.development-residence,.development-penthouse, .development-area, .development-featured, .development-amenities, .development-services, .header-15-sub-home, .project-home, .development-btm, .concierge-1, .concierge-2, .concierge-3, .concierge-4, .concierge-5, .concierge-6, .concierge-7, .concierge-8, .concierge-9, .sky, .sky-info, .ocean, .ocean-info, .executive, .executive-info, .exotic, .exotic-info, .time, .time-info, .invest-1, .invest-2, .invest-3, .house, .house-info, .integral-1, .integral-2, .integral-3, .integral-4, .integral-5, .integral-6, .legal, .legal-info, .visa, .visa-2, .visa-4, .visa-5, .eb5, .eb5-2, .finance, .finance-info').each(function() {
+        if (! isMobile.any() ) {
+          $(this).parallax('50%', .3, true);
+        } else {
+          $(this).css('background-attachment', 'initial')
+        }
+      })
+    }(jQuery));
+
+
+    // Scroll to id
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+
+    jQuery(window).resize(function(){
+       resizenow();
+    });
+    function resizenow() {
+      var browserwidth = jQuery(window).width();
+      var browserheight = jQuery(window).height();
+      jQuery('.bonfire-pageloader-icon').css('right', ((browserwidth - jQuery(".bonfire-pageloader-icon").width())/2)).css('top', ((browserheight - jQuery(".bonfire-pageloader-icon").height())/2));
+    };
+    resizenow();
+
+  </script>
+
+
+
+</body>
+</html>

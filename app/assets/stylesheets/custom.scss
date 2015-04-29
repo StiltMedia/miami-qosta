@@ -1,0 +1,1999 @@
+.stay-still {
+  overflow: hidden;
+}
+.more-info-arrow {
+  margin: 0 auto;
+  width: 50px;
+  display: block;
+  padding-top: 20px;
+  @media (max-width: 991px) {
+    display:none;
+  }
+}
+.more-info-arrow-2 {
+  display: none;
+  @media (max-width: 991px) {
+    display:block;
+    margin: 0 auto;
+    width: 50px;
+  }
+}
+.logo-top {
+  position: fixed;
+  z-index: 100;
+  top: 11px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  @media (max-width: 991px) {
+    margin: 0;
+    left: 20px;
+  }
+}
+
+.v-align {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+hr {
+  width: 100px;
+}
+
+.arrow-right-white {
+  img{
+    display: none;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding-left: 0px;
+    img {
+      margin: 0 auto;
+      display: block;
+      width: 50px;
+    }
+  }
+  @media (max-width: 767px) {
+    padding-left: 0px;
+    img {
+      margin: 0 auto;
+      display: block;
+      width: 50px;
+    }
+  }
+}
+.arrow-right-gray {
+  img{
+    margin: 0 auto;
+    display: block;
+    width: 60px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding-left: 0px;
+    img {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    padding-left: 0px;
+    img {
+      display: none;
+    }
+  }
+}
+
+#bkg-overlay {
+  width:100%;
+  height:100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 4;
+  display: none;
+  position: absolute;
+  overflow: hidden;
+}
+
+// Nav Bar
+.header-3 {
+  .navbar-header{
+    padding-top: 15px;
+    float: none;
+    img {
+      width: 150px;
+    }
+    .col-md-4-left {
+      @extend .col-md-4;
+      float: left;
+      padding-top:10px;
+      ul {
+        padding-left: 0;
+      }
+      li {
+        display: inline-block;
+        &:after{
+          content: ' | ';
+        }
+        &:last-child:after {
+          content: ' ';
+        }
+      }
+      a {
+        color: #000000;
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        display: none;
+      }
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+    .col-md-4-center {
+      @extend .col-md-4;
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        float: left;
+      }
+      @media (max-width: 767px) {
+        float: left;
+      }
+    }
+    .col-md-4-right {
+      @extend .col-md-4;
+      text-align: right;
+    }
+  }
+}
+
+// Menu
+  .menu {
+    color: $qgray;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    position: fixed;
+    z-index: 3;
+    top: 33px;
+    right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    &:active, &:focus, &:hover{
+      color: $qgray;
+    }
+    img {
+      width: 38px;
+      margin-top: -5px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      right:20px;
+      color: #ffffff;
+      &:active, &:focus, &:hover{
+        color: #ffffff;
+      }
+    }
+    @media (max-width: 767px) {
+      right:20px;
+      color: #ffffff;
+      &:active, &:focus, &:hover{
+        color: #ffffff;
+      }
+    }
+  }
+
+// Home Page
+
+.header-15-sub-home {
+  @extend .header-15-sub;
+  height: 100vh;
+  position: relative;
+  .blk-bkg {
+    position: absolute;
+    width:100%;
+    height:100%;
+    display:block;
+    background:rgba(0,0,0,.3);
+  }
+  .title {
+    padding-top: 20em;
+    @media (max-width: 1440px) {
+      padding-top: 10em;
+    }
+
+  }
+  .background {
+    // background-image:url(image-path("home-main.jpg"));
+    background-image:url(http://miami-qosta-live.s3.amazonaws.com/pictures/11/retina/gallery2.jpg?1427736617);
+    opacity: 1;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    @media (min-width: 768px) and (max-width: 991px) {
+      height: 100vh;
+      background-image:url(image-path("home-main1.jpg"));
+    }
+    @media (max-width: 767px) {
+      height: 100vh;
+      background-image:url(image-path("home-main1.jpg"));
+    }
+  }
+  h2 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom:0px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      font-size: 20px;
+    }
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+  .delimiter {
+    @media (min-width: 768px) and (max-width: 991px) {
+      margin-top: 110px;
+    }
+    @media (max-width: 767px) {
+      margin-top: 110px;
+    }
+  }
+  .delimiter2 {
+    @extend .delimiter;
+    margin-top: 150px;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 300;
+    text-align: center;
+    margin-top:-8px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      font-size: 35px;
+    }
+    @media (max-width: 767px) {
+      font-size: 35px;
+    }
+  }
+  p {
+    margin-bottom: 0px !important;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px !important;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+  }
+  .scroll-btn {
+    position: absolute;
+    bottom: 10em;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+  }
+  .scroll-down {
+    cursor: pointer;
+    width: 50px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      width: 40px;
+    }
+    @media (max-width: 767px) {
+      width: 40px;
+    }
+  }
+  .container-home{
+    @extend .container;
+    padding-top:15vh;
+  }
+  .container-fluid-home{
+    @extend .container-fluid;
+    padding-top:30vh;
+    .col-md-12 {
+      background: rgba(250, 250, 250, 0.6);
+      img {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0 10px;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      display: none;
+    }
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+
+.home-content {
+  padding-top:125px;
+  padding-bottom:150px;
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-weight: 300;
+  }
+  ul {
+    padding-left: 15px;
+    li {
+      font-family: 'Lato', sans-serif;
+      color: $qgray;
+      font-weight: 300;
+    }
+  }
+  .delimiter {
+     margin-top: 100px;
+  }
+}
+
+.project-home {
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/home-projects2.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 3;
+  height: 100vh;
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("projects.jpg"));
+    height: auto;
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("projects.jpg"));
+    height: auto;
+  }
+  .img-responsive{
+    display: none;
+    @media (min-width: 768px) and (max-width: 991px) {
+      display: block;
+    }
+    @media (max-width: 767px) {
+      display: block;
+    }
+  }
+  .col-md-5 {
+      background: white;
+      height: 100vh;
+      @media (min-width: 768px) and (max-width: 991px) {
+        background: none;
+        height: auto;
+      }
+      @media (max-width: 767px) {
+        background: none;
+        height: auto;
+      }
+  }
+  .col-md-7 {
+    border-top: transparent solid 100vh;
+    border-right: white solid 200px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      border: none;
+      height: auto;
+    }
+    @media (max-width: 767px) {
+      border: none;
+      height: auto;
+    }
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 40vh;
+    text-transform: uppercase;
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding-top: 0px;
+      text-align: center;
+      color: #ffffff;
+    }
+    @media (max-width: 767px) {
+      padding-top: 0px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding-top: 50px;
+      padding-bottom: 90px;
+    }
+    @media (max-width: 767px) {
+      padding-top: 50px;
+      padding-bottom: 90px;
+    }
+  }
+}
+
+// Top Section of interior pages
+.top-section {
+  background: #fafafa;
+  height: 100vh;
+  position: relative;
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-size: 55px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    text-transform: uppercase;
+  }
+  hr {
+    width: 110px;
+    border-top: #aad6f3 solid 2px;
+  }
+  p {
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: $qgray;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 60px;
+  }
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 60px 0 100px 0;
+    h1 {
+      font-size: 35px;
+    }
+    img{
+      padding-top: 50px;
+      width: 40px;
+    }
+  }
+  @media (max-width: 767px) {
+    padding: 60px 0 100px 0;
+    h1 {
+      font-size: 35px;
+    }
+    img{
+      padding-top: 50px;
+      width: 40px;
+    }
+  }
+}
+
+// Bottom Section
+.bottom-section {
+  @extend .top-section;
+  height: 80vh;
+  p {
+    margin-top: 0px;
+  }
+}
+
+// Developement
+
+.development-btm {
+  padding: 300px 0;
+  background-image:url(image-path("development.jpg"));
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  hr {
+    width: 100px;
+  }
+  p {
+    font-family: lato;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 100px 0;
+    h1 {
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    padding: 100px 0;
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+// Concierge Main Page
+
+.concierge-1 {
+  @extend .project-home;
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/concierge-sky.jpg);
+  h1 {
+    padding-top: 50%;
+    text-align:center;
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    color: #6d6e71;
+    font-weight: 300;
+    text-align:center;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("concierge-1-1.jpg"));
+    h1 {
+      padding-top: 0px;
+    }
+    p {
+      font-family: 'Lato', sans-serif;
+      color: #ffffff;
+    }
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("concierge-1-1.jpg"));
+    h1 {
+      padding-top: 0px;
+    }
+    p {
+      font-family: 'Lato', sans-serif;
+      color: #ffffff;
+    }
+  }
+  .col-md-5 {
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    @media (max-width: 767px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+.concierge-2 {
+  height: 80vh;
+  background-image:url(image-path("concierge-2.jpg"));
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: none;
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.concierge-3{
+  @extend .concierge-1;
+  @extend .project-home;
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/concierge-ocean.jpg);
+  .col-md-5 {
+    padding-left: 100px;
+  }
+  .col-md-7 {
+    border-left: white solid 200px;
+    border-right: none;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("concierge-3-3.jpg"));
+    .col-md-5 {
+      padding-left: 30px;
+    }
+    .col-md-7 {
+      border-left: none;
+    }
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("concierge-3-3.jpg"));
+    .col-md-5 {
+      padding-left: 30px;
+    }
+    .col-md-7 {
+      border-left: none;
+    }
+  }
+}
+
+.concierge-4 {
+  @extend .concierge-2;
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/concierge-ocean2.jpg);
+}
+
+.concierge-5 {
+  position: relative;
+  .bkg {display:none;}
+  @extend .concierge-1;
+  @extend .project-home;
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/concierge-executive.jpg);
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("executive-car.jpg"));
+    .bkg {
+      display: block;
+      position: absolute;
+      background: rgba(0,0,0,0.3);
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("executive-car.jpg"));
+    .bkg {
+      display: block;
+      position: absolute;
+      background: rgba(0,0,0,0.3);
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.concierge-6 {
+  @extend .concierge-2;
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/concierge-executive2.jpg)
+}
+
+.concierge-7{
+  position: relative;
+  .bkg {display:none;}
+  @extend .concierge-3;
+  @extend .project-home;
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/concierge-exotic.jpg);
+  h1 {
+    padding-top: 37vh;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("exotic1.jpg"));
+    h1 {
+      padding-top: 0px;
+    }
+    .bkg {
+      display: block;
+      position: absolute;
+      background: rgba(0,0,0,0.3);
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("exotic1.jpg"));
+    h1 {
+      padding-top: 0px;
+    }
+    .bkg {
+      display: block;
+      position: absolute;
+      background: rgba(0,0,0,0.3);
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.concierge-8 {
+  @extend .concierge-2;
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/concierge-exotic2.jpg);
+}
+.concierge-9 {
+  @extend .concierge-1;
+  @extend .project-home;
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/concierge-time.jpg);
+  h1 {
+    padding-top: 40vh;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("concierge-9-9.jpg"));
+    h1 {
+      font-size: 40px;
+      padding-top: 0px;
+    }
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("concierge-9-9.jpg"));
+    h1 {
+      font-size: 40px;
+      padding-top: 0px;
+    }
+  }
+}
+
+// Interior Concierge Pages
+// Sky Concierge
+.sky {
+  @extend .header-15-sub;
+  height: 100vh;
+  .background {
+    background-image:url(image-path("sky.jpg"));
+    opacity: 1;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20%;
+  }
+  img {
+    padding-top: 20%;
+    width: 60px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    img {
+      width: 50px;
+    }
+  }
+  @media (max-width: 767px) {
+    img {
+      width: 50px;
+    }
+  }
+}
+.sky-content {
+  @extend .home-content;
+}
+.sky-info {
+  @extend .concierge-1;
+  background-image:url(image-path("sky-2.jpg"));
+  h1 {
+    padding-top: 40%;
+  }
+  h1, p {
+    text-align: center;
+  }
+  hr {
+    width: 50px;
+    border-top: $qgray solid 1px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .delimiter {
+      display: none;
+    }
+    background-image:url(image-path("sky-2-2.jpg"));
+    h1 {
+      padding-top: 0px;
+    }
+    hr {
+      border-top: #ffffff solid 1px;
+    }
+  }
+  @media (max-width: 767px) {
+    .delimiter {
+      display: none;
+    }
+    background-image:url(image-path("sky-2-2.jpg"));
+    h1 {
+      padding-top: 0px;
+    }
+    hr {
+      border-top: #ffffff solid 1px;
+    }
+  }
+}
+
+.sky-info2 {
+  background: #ffffff;
+  padding: 100px 0;
+  font-family: $lato;
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    font-weight: 300;
+    color: $qgray;
+  }
+  p {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .delimiter {
+    margin-top: 50px;
+  }
+  h1 {
+    padding-top: 0;
+  }
+}
+// Ocean Concierge
+.ocean {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("ocean.jpg"));
+  }
+}
+.ocean-content {
+  @extend .home-content;
+}
+.ocean-info {
+  @extend .sky-info;
+  background-image:url(image-path("ocean-2.jpg"));
+  position: relative;
+  height: 100%;
+  .v-center {
+    padding: 100px 0 100px 0;
+  }
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    font-weight: 300;
+    color: white;
+  }
+  p {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  }
+  .bkg {
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+  }
+  hr {
+    border-top: 1px solid white;
+  }
+}
+
+// Executive Concierge
+.executive {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("executive-car.jpg"));
+  }
+  position: relative;
+  .bkg {
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+  }
+}
+.executive-content {
+  @extend .home-content;
+}
+.executive-info {
+  @extend .ocean-info;
+  position: relative;
+  .bkg {
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+  }
+  .content {
+    text-transform: none;
+    text-align: left;
+  }
+  background-image:url(image-path("executive-2.jpg"));
+  @media (min-width: 768px) and (max-width: 991px) {
+    .content {
+      text-transform: none;
+      text-align: center;
+    }
+  }
+  @media (max-width: 767px) {
+    .content {
+      text-transform: none;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// Exotic Concierge
+.exotic {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("exotic1.jpg"));
+  }
+  position: relative;
+  .bkg {
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+  }
+}
+.exotic-content {
+  @extend .home-content;
+}
+.exotic-info {
+  @extend .ocean-info;
+  position: relative;
+  padding: 100px 0;
+  .bkg {
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+  background-image:url(image-path("exotic-2.jpg"));
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("exotic-2-2.jpg"));
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("exotic-2-2.jpg"));
+  }
+}
+
+// Time Management
+.time {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("time.jpg"));
+  }
+}
+.time-content {
+  @extend .home-content;
+}
+.time-info {
+  @extend .sky-info;
+  background-image:url(image-path("time-2.jpg"));
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("time-2-2.jpg"));
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("time-2-2.jpg"));
+  }
+}
+
+// Investments Main Page
+.invest-1 {
+  @extend .concierge-2;
+  background-image:url(image-path("invest-1.jpg"));
+  padding-top: 100px;
+  height: 100vh;
+  @media (min-width: 768px) and (max-width: 991px) {
+    height: auto;
+    padding-bottom: 100px;
+    display: block;
+  }
+  @media (max-width: 767px) {
+    height: auto;
+    padding-bottom: 100px;
+    display: block;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: left;
+  }
+  p{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: left;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    h1, p {
+      text-align: center;
+    }
+  }
+  @media (max-width: 767px) {
+    h1, p {
+      text-align: center;
+    }
+  }
+}
+
+.invest-2 {
+  @extend .concierge-2;
+  background-image:url("http://miami-qosta-live.s3.amazonaws.com/pictures/85/retina/gallery1.jpg?1427810643");
+}
+
+.invest-3 {
+  @extend .concierge-3;
+  background-image:url("http://miami-qosta-live.s3.amazonaws.com/developments/16/original/residences.jpg?1427745698");
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("invest-3-3.jpg"));
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("invest-3-3.jpg"));
+  }
+}
+// Investment Interior Pages
+.house {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("house.jpg"));
+  }
+}
+.house-content {
+  @extend .home-content;
+}
+.house-info {
+  @extend .sky-info;
+  background: white;
+  height: 100%;
+  padding: 100px 0;
+
+  ul {
+    padding-left: 40px;
+    color:$qgray;
+    font-weight: 300;
+    font-family: $lato;
+  }
+  p {
+    color:$qgray;
+    text-align: left;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+
+  }
+  @media (max-width: 767px) {
+
+  }
+}
+
+// Integral Services Main Page
+
+.integral-content {
+  @extend .home-content;
+  h1 {
+    font-size: 30px;
+  }
+}
+.integral-1 {
+  @extend .concierge-1;
+  @extend .project-home;
+  background-image:url(image-path("integral.jpg"));
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("integral-1.jpg"));
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("integral-1.jpg"));
+  }
+}
+.integral-2 {
+    @extend .concierge-2;
+    background-image:url(image-path("integral-2.jpg"));
+}
+.integral-3 {
+  @extend .concierge-1;
+  @extend .project-home;
+  background-image:url(image-path("integral-3.jpg"));
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("integral-3-3.jpg"));
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("integral-3-3.jpg"));
+  }
+}
+.integral-4 {
+    @extend .concierge-2;
+    background-image:url(image-path("integral-4.jpg"));
+}
+.integral-5 {
+  @extend .concierge-3;
+  @extend .project-home;
+  background-image:url(image-path("integral-5.jpg"));
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("integral-5-5.jpg"));
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("integral-5-5.jpg"));
+  }
+}
+.integral-6 {
+  @extend .concierge-3;
+  @extend .project-home;
+  h1 {
+    padding-top: 30%;
+  }
+  background-image:url(https://s3-us-west-2.amazonaws.com/miami-qosta-live/static-pages-pictures/luxury-living.jpg);
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("integral-6-6.jpg"));
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("integral-6-6.jpg"));
+  }
+}
+
+// Integral Interior Pages
+
+// Legal Page
+.legal {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("legal-1.jpg"));
+  }
+}
+.legal-content {
+  @extend .home-content;
+}
+.legal-info {
+  @extend .sky-info;
+  background-image:url(image-path("legal-2.jpg"));
+}
+
+// VISA EB-5 Page
+.visa {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("visa-1.jpg"));
+  }
+}
+.visa-2 {
+  @extend .concierge-1;
+  background-image:url(image-path("visa-2.jpg"));
+  h1 {
+    padding-top: 40%;
+    font-size: 35px;
+  }
+  hr {
+    width: 50px;
+    border-top: $qgray solid 1px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-image:url(image-path("visa-2-2.jpg"));
+    h1 {
+      padding-top: 0px;
+      font-size: 35px;
+    }
+    hr {
+      width: 50px;
+      border-top: #ffffff solid 1px;
+    }
+  }
+  @media (max-width: 767px) {
+    background-image:url(image-path("visa-2-2.jpg"));
+    h1 {
+      padding-top: 0px;
+      font-size: 35px;
+    }
+    hr {
+      width: 50px;
+      border-top: #ffffff solid 1px;
+    }
+  }
+}
+
+.visa-3 {
+  @extend .top-section;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  ul {
+    list-style-position: inside;
+    @media (min-width: 768px) and (max-width: 991px) {
+      h1{
+        font-size: 30px;
+      }
+      padding-left: 0px;
+    }
+    @media (max-width: 767px) {
+      h1 {
+        font-size: 30px;
+      }
+      padding-left: 0px;
+    }
+  }
+  li{
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  hr {
+    width: 50px;
+    border-top: #000000 solid 1px;
+  }
+}
+
+.visa-4 {
+  @extend .concierge-3;
+  background-image:url(image-path("visa-3.jpg"));
+  h1 {
+    text-align: left;
+    font-size: 35px;
+  }
+  p {
+    text-align: left;
+  }
+}
+
+.visa-5 {
+  @extend .visa-2;
+  background-image:url(image-path("visa-4.jpg"));
+}
+
+.visa-6 {
+  @extend .bottom-section;
+  height: 100vh;
+  h1 {
+    margin-top: 160px;
+  }
+  hr {
+    width: 50px;
+    border-top: #000000 solid 1px;
+  }
+}
+
+// EB5 Page
+.eb5 {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("eb5-1.jpg"));
+  }
+}
+.eb5-content {
+  @extend .legal-content;
+  .eltop {
+      margin-top: 40px;
+  }
+  p {
+    text-align: center;
+  }
+  .delimiter {
+    margin-top: 70px;
+  }
+  hr {
+    width: 50px;
+    border-top: #000000 solid 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+.eb5-content2 {
+  @extend .eb5-content;
+  background: #fafafa;
+  hr {
+    width: 50px;
+    border-top: #000000 solid 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+.eb5-2 {
+  @extend .visa-2;
+  .col-md-10-loco {
+    @extend .col-md-10;
+    margin-top: 30%;
+  }
+  background-image:url(image-path("eb5-2.jpg"));
+}
+
+// Financing page
+.finance {
+  @extend .sky;
+  .background {
+    background-image:url(image-path("finance.jpg"));
+  }
+}
+
+.finance-info{
+  @extend .sky-info;
+  background-image:url(image-path("finance-1.jpg"));
+  height:40vh;
+}
+.finance-info2 {
+  @extend .finance-info;
+  background: white;
+  padding: 100px 0;
+  height: 100%;
+  p {
+    text-align: left;
+  }
+  ul {
+    font-weight: 300;
+    color: $qgray;
+  }
+}
+
+
+//Team Page
+.team {
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    @media (max-width: 767px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .col-md-4 {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .col-md-8 {
+      padding-top: 40px;
+      border-bottom-width: 40px;
+      padding-bottom: 70px;
+    }
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    @media (max-width: 767px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    @media (max-width: 767px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+// Contact Form
+.contact-mid {
+  background: $qgray;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  h2 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+  }
+  hr {
+    width: 50px;
+  }
+}
+
+.contact-arrow {
+  p {
+    text-align: center;
+    margin-top: -35px;
+    color: $qgray;
+  }
+}
+
+.contact-form {
+  padding: 50px 0 120px 0;
+  .delimiter {
+    margin-top: 50px;
+  }
+  p {
+    color: $qgray;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .form-control {
+    color: $qgray;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    border-bottom: $qgray solid 1px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-transition: none;
+  }
+  .form-control:focus {
+    box-shadow: 0 4px 2px -2px $gray;
+  }
+  .btn-contact {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    border: $qgray solid 2px;
+    border-radius: 0px;
+    background: none;
+    color: $qgray;
+  }
+}
+
+// Footer
+.footer-2 {
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color:#ffffff;
+  }
+  a {
+    color:#ffffff;
+  }
+  .col-md-10 {
+    margin: 0 auto;
+    float: none;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    text-align: center;
+    .pull-right {
+      float: none !important;
+    }
+    .pull-left {
+      float: none !important;
+    }
+  }
+  @media (max-width: 767px) {
+    text-align: center;
+    .pull-right {
+      float: none !important;
+    }
+    .pull-left {
+      float: none !important;
+    }
+  }
+}
+
+
+// Development Page
+
+.development-featured {
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: lato;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-top: 4.5em;
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
+  }
+  .scroll-down {
+    position: absolute;
+    bottom: 9em;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 50px;
+    @media (max-width: 767px) {
+      width: 40px;
+    }
+  }
+}
+.development-content {
+  color: $qgray;
+  font-family: 'Lato', sans-serif;
+  padding: 150px 0;
+  p {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  h1 {
+    text-align: center;
+    color: $qgray;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-bottom: 1em;
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
+  }
+  li {
+    line-height: 30px;
+    font-family: lato;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+.development-amenities {
+  @extend .project-home;
+  position: relative;
+  color: $qgray;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  .bkg-mobile {
+    display: none;
+    @media (max-width: 767px) {
+      display: block;
+      background: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .col-md-10 {
+    padding: 6em 15px;
+  }
+  h1 {
+    padding: 0;
+    @media (max-width: 767px) {
+      font-size: 35px;
+    }
+  }
+  li {
+    line-height: 30px;
+    list-style-type: none;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+    @media (max-width: 767px) {
+      color: white;
+    }
+  }
+  hr {
+    width: 50px;
+    border-top: $qgray solid 1px;
+    @media (max-width: 767px) {
+      border-top: white solid 1px;
+    }
+  }
+  ul {
+    padding-top: 3em;
+    padding-left: 0px;
+  }
+}
+.development-services {
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 10em 0 0;
+  text-align: center;
+  @media (max-width: 767px) {
+    height: 100%;
+    padding: 10em 0;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+  }
+  li {
+    line-height: 30px;
+    list-style-type: none;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+  }
+  ul {
+    padding-top: 3em;
+    padding-left: 0px;
+  }
+  hr {
+    width: 50px;
+  }
+}
+.development-residence {
+    @extend .development-amenities;
+}
+.development-payment {
+  background: #fafafa;
+  padding: 7em 0;
+  hr {
+    border: solid 1px #acd5f5;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-weight: 300;
+    text-align: center;
+  }
+  ul{padding-left:0;}
+  li {
+    list-style-type: none;
+    text-align: center;
+    font-family: lato;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 15px;
+  }
+}
+
+.development-area {
+  @extend .development-services;
+  position: relative;
+  .area-floorplan {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    bottom: 10em;
+    left: 10em;
+    @media (max-width: 767px) {
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+    }
+    li {
+      display: inline-block;
+      padding-right: 30px;
+      font-size: 16px;
+      @media (max-width: 767px) {
+        display: block;
+        padding-right: 0px;
+        padding-top: 20px;
+      }
+      img {
+        width: 45px;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+.development-no-gallery {
+  @extend .development-payment;
+  background: white;
+}
+
+.next-development {
+  padding: 10em 0;
+  text-align: center;
+  h1, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #6d6e71;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  img {
+    width: 45px;
+  }
+}
+
+.new-developments {
+  height: 100vh;
+  background: #fafafa;
+  position: relative;
+  .top {
+    top: 20%;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    @media (max-width: 767px) {
+      font-size: 35px;
+    }
+  }
+  hr {
+    border-top: #aad6f3 solid 2px;
+  }
+  .scroll-down {
+    position: absolute;
+    bottom: 9em;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 50px;
+    @media (max-width: 767px) {
+      width: 40px;
+    }
+  }
+}
+
+.development-list {
+  background: black;
+  .hover-dev {
+    position: relative;
+    h3 {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      margin: 0;
+      transition: .2s all;
+      &:hover {
+        background: rgba(255, 255, 255, 0.8);
+      }
+      a {
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        padding-top: 25%;
+        width: 100%;
+        height: 100%;
+        &:hover {
+          color:black;
+          text-decoration: underline;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+.development-similar {
+  @extend .development-payment;
+  padding: 3em 0 4em;
+  h1 {
+    text-transform: uppercase;
+    @media (max-width: 767px) {
+      font-size: 40px;
+    }
+    @media (max-width: 360px) {
+      font-size: 30px;
+    }
+  }
+}
+
+
+.development-penthouse {
+  @extend .concierge-3;
+  position: relative;
+  color: $qgray;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  .bkg-mobile {
+    display: none;
+    @media (max-width: 767px) {
+      display: block;
+      background: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .col-md-10 {
+    padding: 6em 15px;
+  }
+  h1 {
+    padding: 0;
+    @media (max-width: 767px) {
+      font-size: 35px;
+    }
+  }
+  li {
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+    @media (max-width: 767px) {
+      color: white;
+    }
+  }
+  hr {
+    width: 100px;
+    border: solid 1px #acd5f5;
+    @media (max-width: 767px) {
+      border-top: white solid 1px;
+    }
+  }
+  ul {
+    padding-top: 3em;
+    padding-left: 0px;
+    list-style-position: inside;
+    list-style-type: circle;
+  }
+}
+
+.all-devs {
+  padding: 70px 0;
+  hr {
+    border: solid 1px #acd5f5;
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    color: #6d6e71;
+    font-weight: 300;
+    text-align: center;
+    @media (max-width: 767px) {
+      font-size: 40px;
+    }
+    @media (max-width: 360px) {
+      font-size: 30px;
+    }
+  }
+  h3 {
+    font-family: 'Lato', sans-serif;
+    color: $qgray;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+  }
+  a {
+    color: $qgray;
+    transition: all .2s;
+    &:hover {
+      opacity: .6;
+    }
+  }
+  .delimiter {
+    margin-top: 50px;
+  }
+}
+
+.thank-you {
+  height: 100vh;
+  position: relative;
+  .message {
+    position: absolute;
+    top: 12em;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    @media (max-width: 767px) {
+      top: 5em;
+    }
+  }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: $qgray;
+    @media (max-width: 767px) {
+      font-size: 35px;
+    }
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: $qgray;
+  }
+}
+
+.modal-lg {
+  margin: 0 auto;
+  width: 100vw;
+}
+.modal-content {
+  min-height: 100vh;
+  border: none;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  border-radius: 0px;
+  top: 100px;
+  z-index: 200;
+  h1 {
+    color: $qgray;
+  }
+}
+button.close {
+  position: absolute;
+  right: 2em;
+  top: 1em;
+}
+
+.show-more {
+    padding-top: 2em;
+    p {
+      text-align: left;
+      margin: 0;
+      font-size: 15px;
+      padding: 5px 0;
+      font-weight: 300;
+      font-family: $lato;
+    }
+    h4 {
+      font-family: $lato;
+    }
+    h5 {
+      font-family: $lato;
+      text-align: center;
+    }
+    ul {
+      margin-top: 20px;
+    }
+    ul, li {
+      list-style-type: circle;
+      text-align: left;
+      font-weight: 300;
+      font-family: $lato;
+    }
+  }
+.show-more-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: $qgray;
+  transition: all .2s;
+  font-weight: 300;
+  &:hover {
+    opacity: .6;
+    color: $qgray;
+  }
+}
+.listing-all {
+  min-height: 50px;
+}
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+@media (min-width: 768px) {
+  .seven-cols .col-sm-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
