@@ -2492,3 +2492,23 @@
 [04/29/15 14:12:51 -0400 Marks-MBP.att.net (668)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
 [04/29/15 14:12:51 -0400 Marks-MBP.att.net (668)] INFO : NoMethodError: undefined method `shutdown' for nil:NilClass
 [04/29/15 14:16:01 -0400 Marks-MBP.att.net (659)] INFO : Starting Agent shutdown
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Reading configuration from config/newrelic.yml (/Users/Mark/Google Drive/stilt-projects/rails apps/qosta)
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Environment: development
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Dispatcher: webrick
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Application: My Application (Development)
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing ActiveJob instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing Net instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing deferred Rack instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Finished instrumentation
+[04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Doing deferred dependency-detection before Rack startup
+[04/29/15 17:31:30 -0400 Marks-MBP.att.net (1265)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 17:46:09 -0400 Marks-MBP.att.net (1265)] INFO : Starting Agent shutdown
