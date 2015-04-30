@@ -2512,3 +2512,46 @@
 [04/29/15 17:31:29 -0400 Marks-MBP.att.net (1265)] INFO : Doing deferred dependency-detection before Rack startup
 [04/29/15 17:31:30 -0400 Marks-MBP.att.net (1265)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
 [04/29/15 17:46:09 -0400 Marks-MBP.att.net (1265)] INFO : Starting Agent shutdown
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] WARN : No configuration file found. Working directory = /Users/ericbetancourt/Desktop/miami/miami-qosta
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] WARN : Looked in these locations (based on defaults): /Users/ericbetancourt/Desktop/miami/miami-qosta/config/newrelic.yml, /Users/ericbetancourt/Desktop/miami/miami-qosta/newrelic.yml, /Users/ericbetancourt/Desktop/miami/miami-qosta/config/newrelic.yml, /Users/ericbetancourt/Desktop/miami/miami-qosta/newrelic.yml, /Users/ericbetancourt/.newrelic/newrelic.yml, /Users/ericbetancourt/newrelic.yml
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Environment: development
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Dispatcher: webrick
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Application: development
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing ActiveJob instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing Net instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing deferred Rack instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 11:42:19 -0400 Erics-Air-2.att.net (30614)] INFO : Finished instrumentation
+[04/30/15 11:42:20 -0400 Erics-Air-2.att.net (30614)] INFO : Doing deferred dependency-detection before Rack startup
+[04/30/15 11:42:37 -0400 Erics-Air-2.att.net (30614)] ERROR : Invalid license key, please contact support@newrelic.com
+[04/30/15 11:42:37 -0400 Erics-Air-2.att.net (30614)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[04/30/15 11:43:57 -0400 Erics-Air-2.att.net (30614)] INFO : Starting Agent shutdown
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] WARN : No configuration file found. Working directory = /Users/ericbetancourt/Desktop/miami/miami-qosta
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] WARN : Looked in these locations (based on defaults): /Users/ericbetancourt/Desktop/miami/miami-qosta/config/newrelic.yml, /Users/ericbetancourt/Desktop/miami/miami-qosta/newrelic.yml, /Users/ericbetancourt/Desktop/miami/miami-qosta/config/newrelic.yml, /Users/ericbetancourt/Desktop/miami/miami-qosta/newrelic.yml, /Users/ericbetancourt/.newrelic/newrelic.yml, /Users/ericbetancourt/newrelic.yml
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Environment: development
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Dispatcher: webrick
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Application: development
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing ActiveJob instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing Net instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing deferred Rack instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 11:44:06 -0400 Erics-Air-2.att.net (30630)] INFO : Finished instrumentation
+[04/30/15 11:44:07 -0400 Erics-Air-2.att.net (30630)] INFO : Doing deferred dependency-detection before Rack startup
+[04/30/15 11:44:37 -0400 Erics-Air-2.att.net (30630)] ERROR : Invalid license key, please contact support@newrelic.com
+[04/30/15 11:44:37 -0400 Erics-Air-2.att.net (30630)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
