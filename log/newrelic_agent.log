@@ -2492,3 +2492,554 @@
 [04/29/15 14:12:51 -0400 Marks-MBP.att.net (668)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
 [04/29/15 14:12:51 -0400 Marks-MBP.att.net (668)] INFO : NoMethodError: undefined method `shutdown' for nil:NilClass
 [04/29/15 14:16:01 -0400 Marks-MBP.att.net (659)] INFO : Starting Agent shutdown
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Environment: development
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Dispatcher: webrick
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Application: My Application (Development)
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing ActiveJob instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing Net instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing deferred Rack instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 17:44:44 -0400 Erics-Air-2.att.net (29532)] INFO : Finished instrumentation
+[04/29/15 17:44:45 -0400 Erics-Air-2.att.net (29532)] INFO : Doing deferred dependency-detection before Rack startup
+[04/29/15 17:44:46 -0400 Erics-Air-2.att.net (29532)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 17:53:55 -0400 Erics-Air-2.att.net (29532)] INFO : Starting Agent shutdown
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Environment: development
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Dispatcher: webrick
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Application: My Application (Development)
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing ActiveJob instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing Net instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing deferred Rack instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 17:55:11 -0400 Erics-Air-2.att.net (29584)] INFO : Finished instrumentation
+[04/29/15 17:55:12 -0400 Erics-Air-2.att.net (29584)] INFO : Doing deferred dependency-detection before Rack startup
+[04/29/15 17:55:12 -0400 Erics-Air-2.att.net (29584)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:00:38 -0400 Erics-Air-2.att.net (29584)] INFO : Starting Agent shutdown
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Environment: development
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : No known dispatcher detected.
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Application: My Application (Development)
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing Net instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:00:48 -0400 Erics-Air-2.att.net (29607)] INFO : Finished instrumentation
+[04/29/15 18:00:49 -0400 Erics-Air-2.att.net (29607)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:11:21 -0400 Erics-Air-2.att.net (29615)] INFO : Starting Agent shutdown
+[04/29/15 18:15:14 -0400 Erics-Air-2.att.net (29607)] INFO : Starting Agent shutdown
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Environment: development
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : No known dispatcher detected.
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Application: My Application (Development)
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing Net instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:15:19 -0400 Erics-Air-2.att.net (29644)] INFO : Finished instrumentation
+[04/29/15 18:15:20 -0400 Erics-Air-2.att.net (29644)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:20:47 -0400 Erics-Air-2.att.net (29661)] INFO : Starting Agent shutdown
+[04/29/15 18:21:11 -0400 Erics-Air-2.att.net (29664)] INFO : Starting Agent shutdown
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Environment: development
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Dispatcher: webrick
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Application: My Application (Development)
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing Net instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:22:00 -0400 Erics-Air-2.att.net (29667)] INFO : Finished instrumentation
+[04/29/15 18:22:01 -0400 Erics-Air-2.att.net (29667)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:22:01 -0400 Erics-Air-2.att.net (29667)] INFO : Doing deferred dependency-detection before Rack startup
+[04/29/15 18:22:06 -0400 Erics-Air-2.att.net (29667)] INFO : Starting Agent shutdown
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Environment: development
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Dispatcher: webrick
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Application: My Application (Development)
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing Net instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:22:33 -0400 Erics-Air-2.att.net (29683)] INFO : Finished instrumentation
+[04/29/15 18:22:34 -0400 Erics-Air-2.att.net (29683)] INFO : Doing deferred dependency-detection before Rack startup
+[04/29/15 18:22:34 -0400 Erics-Air-2.att.net (29683)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:29:28 -0400 Erics-Air-2.att.net (29683)] INFO : Starting Agent shutdown
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Environment: development
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Dispatcher: webrick
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Application: My Application (Development)
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing Net instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:30:40 -0400 Erics-Air-2.att.net (29732)] INFO : Finished instrumentation
+[04/29/15 18:30:41 -0400 Erics-Air-2.att.net (29732)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:30:42 -0400 Erics-Air-2.att.net (29732)] INFO : Doing deferred dependency-detection before Rack startup
+[04/29/15 18:30:45 -0400 Erics-Air-2.att.net (29732)] INFO : Starting Agent shutdown
+[04/29/15 18:30:58 -0400 Erics-Air-2.att.net (29742)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:30:58 -0400 Erics-Air-2.att.net (29742)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:30:58 -0400 Erics-Air-2.att.net (29742)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:30:58 -0400 Erics-Air-2.att.net (29742)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:30:58 -0400 Erics-Air-2.att.net (29742)] INFO : Environment: development
+[04/29/15 18:30:58 -0400 Erics-Air-2.att.net (29742)] INFO : Dispatcher: webrick
+[04/29/15 18:30:58 -0400 Erics-Air-2.att.net (29742)] INFO : Application: My Application (Development)
+[04/29/15 18:30:58 -0400 Erics-Air-2.att.net (29742)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Installing Net instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Finished instrumentation
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:30:59 -0400 Erics-Air-2.att.net (29742)] INFO : Doing deferred dependency-detection before Rack startup
+[04/29/15 18:35:50 -0400 Erics-Air-2.att.net (29644)] INFO : Starting Agent shutdown
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Environment: development
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : No known dispatcher detected.
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Application: My Application (Development)
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing Net instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:35:56 -0400 Erics-Air-2.att.net (29777)] INFO : Finished instrumentation
+[04/29/15 18:35:57 -0400 Erics-Air-2.att.net (29777)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:36:02 -0400 Erics-Air-2.att.net (29777)] INFO : Starting Agent shutdown
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Environment: development
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : No known dispatcher detected.
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Application: My Application (Development)
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing Net instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:36:07 -0400 Erics-Air-2.att.net (29787)] INFO : Finished instrumentation
+[04/29/15 18:36:08 -0400 Erics-Air-2.att.net (29742)] INFO : Starting Agent shutdown
+[04/29/15 18:36:08 -0400 Erics-Air-2.att.net (29787)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Environment: development
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Dispatcher: webrick
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Application: My Application (Development)
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing Net instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:36:26 -0400 Erics-Air-2.att.net (29798)] INFO : Finished instrumentation
+[04/29/15 18:36:27 -0400 Erics-Air-2.att.net (29798)] INFO : Doing deferred dependency-detection before Rack startup
+[04/29/15 18:36:27 -0400 Erics-Air-2.att.net (29798)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/29/15 18:47:00 -0400 Erics-Air-2.att.net (29848)] INFO : Starting Agent shutdown
+[04/29/15 18:47:17 -0400 Erics-Air-2.att.net (29798)] INFO : Starting Agent shutdown
+[04/29/15 18:47:43 -0400 Erics-Air-2.att.net (29853)] INFO : Starting Agent shutdown
+[04/29/15 18:47:55 -0400 Erics-Air-2.att.net (29857)] INFO : Starting Agent shutdown
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Environment: development
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Dispatcher: webrick
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Application: My Application (Development)
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing ActiveJob instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing Net instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing deferred Rack instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 18:57:33 -0400 Erics-Air-2.att.net (29877)] INFO : Finished instrumentation
+[04/29/15 18:57:34 -0400 Erics-Air-2.att.net (29877)] INFO : Starting Agent shutdown
+[04/29/15 19:02:38 -0400 Erics-Air-2.att.net (29787)] INFO : Starting Agent shutdown
+[04/29/15 19:02:42 -0400 Erics-Air-2.att.net (29895)] INFO : Starting the New Relic agent in "development" environment.
+[04/29/15 19:02:42 -0400 Erics-Air-2.att.net (29895)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/29/15 19:02:42 -0400 Erics-Air-2.att.net (29895)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/29/15 19:02:42 -0400 Erics-Air-2.att.net (29895)] INFO : New Relic Agent Developer Mode enabled.
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Environment: development
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : No known dispatcher detected.
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Application: My Application (Development)
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing ActiveJob instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing ActiveRecord 4 instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing Net instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing deferred Rack instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing Rack::Builder middleware instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing Rails 3+ middleware instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing Rails 4 Controller instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing Rails 4 view instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Installing Rails 4 Error instrumentation
+[04/29/15 19:02:43 -0400 Erics-Air-2.att.net (29895)] INFO : Finished instrumentation
+[04/29/15 19:02:44 -0400 Erics-Air-2.att.net (29895)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 09:13:57 -0400 Erics-Air-2.att.net (29895)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[04/30/15 09:13:57 -0400 Erics-Air-2.att.net (29895)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-151.newrelic.com:443 after 0.010875 seconds: getaddrinfo: nodename nor servname provided, or not known
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Environment: development
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Dispatcher: webrick
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Application: My Application (Development)
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing ActiveJob instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing Net instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing deferred Rack instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 09:16:25 -0400 Erics-Air-2.att.net (29982)] INFO : Finished instrumentation
+[04/30/15 09:16:26 -0400 Erics-Air-2.att.net (29982)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 09:16:26 -0400 Erics-Air-2.att.net (29982)] INFO : Starting Agent shutdown
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Environment: development
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Dispatcher: webrick
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Application: My Application (Development)
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing ActiveJob instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing Net instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing deferred Rack instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 09:24:06 -0400 Erics-Air-2.att.net (30001)] INFO : Finished instrumentation
+[04/30/15 09:24:07 -0400 Erics-Air-2.att.net (30001)] INFO : Starting Agent shutdown
+[04/30/15 09:29:03 -0400 Erics-Air-2.att.net (30028)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 09:29:03 -0400 Erics-Air-2.att.net (30028)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 09:29:03 -0400 Erics-Air-2.att.net (30028)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Environment: development
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Dispatcher: webrick
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Application: My Application (Development)
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing ActiveJob instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing Net instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing deferred Rack instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 09:29:04 -0400 Erics-Air-2.att.net (30028)] INFO : Finished instrumentation
+[04/30/15 09:29:05 -0400 Erics-Air-2.att.net (30028)] INFO : Doing deferred dependency-detection before Rack startup
+[04/30/15 09:29:10 -0400 Erics-Air-2.att.net (30028)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 09:37:07 -0400 Erics-Air-2.att.net (30028)] INFO : Starting Agent shutdown
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Environment: development
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Dispatcher: webrick
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Application: My Application (Development)
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing ActiveJob instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing Net instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing deferred Rack instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 09:37:16 -0400 Erics-Air-2.att.net (30084)] INFO : Finished instrumentation
+[04/30/15 09:37:17 -0400 Erics-Air-2.att.net (30084)] INFO : Starting Agent shutdown
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Environment: development
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Dispatcher: webrick
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Application: My Application (Development)
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing ActiveJob instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing Net instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing deferred Rack instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 09:49:54 -0400 Erics-Air-2.att.net (30115)] INFO : Finished instrumentation
+[04/30/15 09:49:55 -0400 Erics-Air-2.att.net (30115)] INFO : Starting Agent shutdown
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Environment: development
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Dispatcher: webrick
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Application: My Application (Development)
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing ActiveJob instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing Net instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing deferred Rack instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 09:54:21 -0400 Erics-Air-2.att.net (30127)] INFO : Finished instrumentation
+[04/30/15 09:54:22 -0400 Erics-Air-2.att.net (30127)] INFO : Starting Agent shutdown
+[04/30/15 09:59:17 -0400 Erics-Air-2.att.net (30150)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 09:59:17 -0400 Erics-Air-2.att.net (30150)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 09:59:17 -0400 Erics-Air-2.att.net (30150)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 09:59:17 -0400 Erics-Air-2.att.net (30150)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 09:59:17 -0400 Erics-Air-2.att.net (30150)] INFO : Environment: development
+[04/30/15 09:59:17 -0400 Erics-Air-2.att.net (30150)] INFO : Dispatcher: webrick
+[04/30/15 09:59:17 -0400 Erics-Air-2.att.net (30150)] INFO : Application: My Application (Development)
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing ActiveJob instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing Net instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing deferred Rack instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Finished instrumentation
+[04/30/15 09:59:18 -0400 Erics-Air-2.att.net (30150)] INFO : Starting Agent shutdown
+[04/30/15 10:04:52 -0400 Erics-Air-2.att.net (29895)] INFO : Starting Agent shutdown
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Environment: development
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : No known dispatcher detected.
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Application: My Application (Development)
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing ActiveJob instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing Net instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing deferred Rack instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 10:04:57 -0400 Erics-Air-2.att.net (30174)] INFO : Finished instrumentation
+[04/30/15 10:04:58 -0400 Erics-Air-2.att.net (30174)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 10:19:21 -0400 Erics-Air-2.att.net (30174)] INFO : Starting Agent shutdown
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Environment: development
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : No known dispatcher detected.
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Application: My Application (Development)
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing ActiveJob instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing Net instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing deferred Rack instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 10:19:24 -0400 Erics-Air-2.att.net (30204)] INFO : Finished instrumentation
+[04/30/15 10:19:25 -0400 Erics-Air-2.att.net (30204)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 10:21:04 -0400 Erics-Air-2.att.net (30204)] INFO : Starting Agent shutdown
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Environment: development
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : No known dispatcher detected.
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Application: My Application (Development)
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing ActiveJob instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing Net instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing deferred Rack instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 10:21:07 -0400 Erics-Air-2.att.net (30216)] INFO : Finished instrumentation
+[04/30/15 10:21:08 -0400 Erics-Air-2.att.net (30216)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 10:22:04 -0400 Erics-Air-2.att.net (30216)] INFO : Starting Agent shutdown
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Environment: development
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : No known dispatcher detected.
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Application: My Application (Development)
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing ActiveJob instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing Net instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing deferred Rack instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 10:22:07 -0400 Erics-Air-2.att.net (30225)] INFO : Finished instrumentation
+[04/30/15 10:22:11 -0400 Erics-Air-2.att.net (30225)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 10:22:13 -0400 Erics-Air-2.att.net (30234)] INFO : Starting Agent shutdown
+[04/30/15 10:25:22 -0400 Erics-Air-2.att.net (30244)] INFO : Starting Agent shutdown
+[04/30/15 10:25:57 -0400 Erics-Air-2.att.net (30247)] INFO : Starting Agent shutdown
+[04/30/15 10:29:02 -0400 Erics-Air-2.att.net (30255)] INFO : Starting Agent shutdown
+[04/30/15 10:29:48 -0400 Erics-Air-2.att.net (30260)] INFO : Starting Agent shutdown
+[04/30/15 10:30:25 -0400 Erics-Air-2.att.net (30265)] INFO : Starting Agent shutdown
+[04/30/15 10:30:41 -0400 Erics-Air-2.att.net (30268)] INFO : Starting Agent shutdown
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Environment: development
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Dispatcher: webrick
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Application: My Application (Development)
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing ActiveJob instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing Net instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing deferred Rack instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 10:36:10 -0400 Erics-Air-2.att.net (30278)] INFO : Finished instrumentation
+[04/30/15 10:36:11 -0400 Erics-Air-2.att.net (30278)] INFO : Doing deferred dependency-detection before Rack startup
+[04/30/15 10:36:11 -0400 Erics-Air-2.att.net (30278)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 10:39:19 -0400 Erics-Air-2.att.net (30278)] INFO : Starting Agent shutdown
+[04/30/15 10:42:55 -0400 Erics-Air-2.att.net (30296)] INFO : Starting Agent shutdown
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Environment: development
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Dispatcher: webrick
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Application: My Application (Development)
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing ActiveJob instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing Net instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing deferred Rack instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 10:53:59 -0400 Erics-Air-2.att.net (30326)] INFO : Finished instrumentation
+[04/30/15 10:54:00 -0400 Erics-Air-2.att.net (30326)] INFO : Starting Agent shutdown
+[04/30/15 11:03:12 -0400 Erics-Air-2.att.net (30351)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 11:03:12 -0400 Erics-Air-2.att.net (30351)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 11:03:12 -0400 Erics-Air-2.att.net (30351)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 11:03:12 -0400 Erics-Air-2.att.net (30351)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 11:03:12 -0400 Erics-Air-2.att.net (30351)] INFO : Environment: development
+[04/30/15 11:03:12 -0400 Erics-Air-2.att.net (30351)] INFO : Dispatcher: webrick
+[04/30/15 11:03:12 -0400 Erics-Air-2.att.net (30351)] INFO : Application: My Application (Development)
+[04/30/15 11:03:12 -0400 Erics-Air-2.att.net (30351)] INFO : Installing ActiveJob instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Installing Net instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Installing deferred Rack instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Finished instrumentation
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 11:03:13 -0400 Erics-Air-2.att.net (30351)] INFO : Doing deferred dependency-detection before Rack startup
+[04/30/15 11:04:16 -0400 Erics-Air-2.att.net (30351)] INFO : Starting Agent shutdown
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Starting the New Relic agent in "development" environment.
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Reading configuration from config/newrelic.yml (/Users/ericbetancourt/Desktop/miami/miami-qosta)
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : New Relic Agent Developer Mode enabled.
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Environment: development
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Dispatcher: webrick
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Application: My Application (Development)
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing ActiveJob instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing ActiveRecord 4 instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing Net instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing deferred Rack instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing Rack::Builder middleware instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing Rails 3+ middleware instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing Rails 4 Controller instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing Rails 4 view instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Installing Rails 4 Error instrumentation
+[04/30/15 11:06:00 -0400 Erics-Air-2.att.net (30367)] INFO : Finished instrumentation
+[04/30/15 11:06:01 -0400 Erics-Air-2.att.net (30367)] INFO : Reporting to: https://rpm.newrelic.com/accounts/914727/applications/6586440
+[04/30/15 11:06:01 -0400 Erics-Air-2.att.net (30367)] INFO : Doing deferred dependency-detection before Rack startup
+[04/30/15 11:08:53 -0400 Erics-Air-2.att.net (30367)] INFO : Starting Agent shutdown

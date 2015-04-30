@@ -1,4 +1,9 @@
 class Development < ActiveRecord::Base
+  validates :slug, uniqueness: true, presence: true,
+                 exclusion: {in: %w[signup login]}
+
+  before_validation :generate_slug
+
   belongs_to :development_type
 
   has_many :galleries, :dependent => :destroy
@@ -17,7 +22,6 @@ class Development < ActiveRecord::Base
   :path => '/:class/:id/:style/:filename',
   # :url => "/system/:attachment/:id/:basename_:style.:extension",
   :url =>':s3_domain_url',
-
 
   :styles => {
     :admin    => ['100x100#',  :jpg, :quality => 70],
@@ -154,6 +158,14 @@ class Development < ActiveRecord::Base
 
   def previous
     Development.where(["id < ?", id]).last
+  end
+
+  def to_param
+     slug
+  end
+
+  def generate_slug
+    self.slug ||= name.parameterize
   end
 
 end
